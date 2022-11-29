@@ -51,7 +51,7 @@ const data1 = [
 const data2 = [
   {
     name: "White",
-    Company: 85,
+    Company: 85, 
     County: 75.4,
     errorY: 5
   },
