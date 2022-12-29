@@ -1,10 +1,13 @@
-import GridLayout from "./Components/GridLayout";
+import Page1 from "./Components/Page1";
+import Page2 from "./Components/Page2";
+import React, { useState } from "react";
 function App() {
+
+  const [button, setButton] = useState("c");
+
   return (
     <div className="App">
-      <testChart></testChart>
-      <h1>Statistical Analysis Page</h1>
-      <GridLayout></GridLayout>
+      <Page1></Page1>
     </div>
   );
 }
