@@ -1,0 +1,36 @@
+.content-container {
+    padding: 2%;
+    height: 40vh;
+    width: 200vh;
+    background-color: lightgrey;
+    font-size: 20px;
+    
+}
+.left-panel {
+    background-color: #840544;
+        flex: 5;
+        float: left;
+        color : white;
+
+     
+}
+
+.right-panel {
+    background-color: #840544;
+        flex: 3;
+        float: right;
+        color : white;
+
+    
+}
+.box {
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    float: middle;
+}
