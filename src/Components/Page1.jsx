@@ -3,7 +3,7 @@ import Card from "./Card";
 import Newline from "./Newline";
 import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
-import TTest from "./TTest";
+import TTest from "./TTest1";
 function Page1() {
   const [button, setButton] = useState("cumulative");
 
